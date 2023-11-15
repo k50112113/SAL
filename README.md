@@ -1,6 +1,6 @@
 # SAL
 
-This is a package for machine learning interatomic potential active learning.
+This is a active learning package for machine learning interatomic potential with a specific focus on the discovery of new atomic configurations, chemical reactions, and chemical products without pre-defined collective variables and chemical product from human input.
 
 # Prerequisite
 
