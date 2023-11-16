@@ -50,7 +50,6 @@ def main():
                 E_data['Subascent'] += E
                 F_data['Subascent'] += F
         itr += 1
-        if itr == 51: break
     max_itr = itr - 1
 
     for key in E_data.keys(): E_data[key] = np.array(E_data[key])
