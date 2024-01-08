@@ -153,7 +153,7 @@ def main():
                     if i_cycle == 0 and ascent_or_descent == 0: start_x = R
                     else:                                       start_x = sa.get_current_x()
                     
-                    start_x_random_displacement = torch.rand_like(start_x) * initial_random_displacement
+                    start_x_random_displacement = (2.0 * torch.rand_like(start_x) - 1.0) * initial_random_displacement
 
                     sa.initialize(func          = forcefield_list[0], 
                                   x             = start_x + start_x_random_displacement,
